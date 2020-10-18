@@ -1,0 +1,40 @@
+.header{
+    background:blue;
+    text-align: center;
+    line-height:60px;
+}
+.header ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.header  ul li{
+    list-style-type: none;
+    margin-left: 20px;
+    text-align: center;
+    display: inline;
+}
+.header ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding:8px;
+    transition: 0.3s;
+}
+.header ul li a:hover{
+    color: lightgray;
+    background-color:gray;
+    border-radius: 5px;
+}
+.nav a{    
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px !important;
+    margin: 0 10px;
+}
+
+.nav a:hover{
+    color:lightgray;
+    background-color:gray;
+    padding:5px 10px;
+}
